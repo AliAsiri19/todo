@@ -1,0 +1,33 @@
+{
+  "error_key": "Json Error key",
+  "app_name": "Todo",
+
+  "msg_no_items": "No Items !",
+  "msg_press_this_button":"Press down button to Add new Item ",
+  "application": "Application",
+  "flutter_group": "By Flutter Completed APPs Group",
+
+  "btn_save": "Save",
+  "btn_cancel": "Cancel",
+  "btn_delete": "Delete",
+  "btn_update": "Update",
+  "btn_exit_info": "Quit",
+
+  "msg_add_item" : "Add Item",
+  "msg_add_titel" : "Add new item",
+  "msg_check_title" : "Are you sure ?",
+  "msg_update_item" : "Update",
+  "msg_update_title" : "Update this item",
+
+  "Informations": "Information",
+  "Information Page": "This Information Page.",
+  "Delete item": "Delete item",
+  "Sort items": "Sort items",
+  "New Item": "Add new item",
+  "Double click on item for update": "To update item double click on",
+  "Check box mean task is finished": "Check box mean task is finished temporary",
+  "msg_info_app": "Informations about app. functions"
+
+
+
+}

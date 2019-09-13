@@ -1,0 +1,30 @@
+{
+  "error_key": "خطأ في مفتاح ملف Json",
+  "app_name": "مهامي",
+
+  "msg_no_items": "لا تتوفر عناصر",
+  "msg_press_this_button":"اضغط الزر في الاسفل لا ضافة عنصر جديد",
+  "application": "تطبيق مبرمج",
+  "flutter_group": "بواسطة مجموعة فلاتر للتطبيقات الكاملة",
+
+  "btn_save": "حفظ",
+  "btn_cancel": "الغاء",
+  "btn_delete": "حذف",
+  "btn_update": "تحديث",
+  "btn_exit_info": "خروج",
+
+  "msg_add_item" : "إضافة مهمة",
+  "msg_add_titel" : "إضافة مهمة جديدة",
+  "msg_check_title" : "هل أنت متأكد ؟",
+  "msg_update_item" : "تحديث",
+  "msg_update_title" : "تحديث هذه المهمة",
+
+  "Informations": "معلومات",
+  "Information Page": "صفحات المعلومات هذه",
+  "Delete item": "حذف مهمة",
+  "Sort items": "فرز المهام",
+  "New Item": "اضافة مهمة جديدة",
+  "Double click on item for update": "لتعديل مهمة اضغط مرتين عليها",
+  "Check box mean task is finished": "عَلّم المربع لانهاء المهمة موقتا",
+  "msg_info_app": "توضيح حول وظائف التطبيق"
+}
