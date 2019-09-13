@@ -59,7 +59,7 @@ class _HomeState extends State<Home> {
           title: Column(
             children: <Widget>[
               Row(
-              mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
                   Expanded(
                     flex: 7,
@@ -203,12 +203,12 @@ class _HomeState extends State<Home> {
           return AlertDialog(
             title: Text(_z('msg_add_item')),
             content: Container(
-              height: 150,
+              height: 100,
               child: Column(
                 children: <Widget>[
-
 //                  Expanded(flex: 1,child: Text(_z('msg_add_titel'))),
-                  Expanded(flex: 3,
+                  Expanded(
+                    flex: 3,
                     child: TextField(
                       controller: _controller,
                     ),
@@ -310,30 +310,35 @@ class _HomeState extends State<Home> {
   // return widget r=that tell us - no item / add new .
   Widget getEmptyWidget() {
     // draw screen with note picture and message to add new items
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-      crossAxisAlignment: CrossAxisAlignment.center,
+    return Wrap(  // avoid overflow when add new item in first time
       children: <Widget>[
-        Container(
-          height: 200,
-          child: Image.asset('notes_icon.png'),
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Container(
-//              color: Colors.amber,
-              child: Text(
-
-                '${_z("msg_no_items")},${_z("msg_press_this_button")}',
-                style: TextStyle(
-                    fontSize: 15,
-                    color: Colors.amber,
-                    fontWeight: FontWeight.bold),
-              ),
+            Container(    // Image when database table is empty
+              height: 300,
+              child: Image.asset('notes_icon.png'),
             ),
+            Row(
+              // message tell the user how to add new item
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Container(
+//              color: Colors.amber,
+                  child: Text(
+                    '${_z("msg_no_items")},${_z("msg_press_this_button")}',
+                    style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.amber,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
 //            SizedBox(width: 5),
-            Icon(Icons.arrow_downward)
+                // down arrow icon induct the button to press
+                Icon(Icons.arrow_downward)
+              ],
+            ),
           ],
         ),
       ],
@@ -352,9 +357,10 @@ class _HomeState extends State<Home> {
     });
     return this.items;
   }
+
   /// *******************************************************
 
-  String _z(String key){
+  String _z(String key) {
     return AppLocalizations.of(context).translate(key);
   }
 } // end of state class
