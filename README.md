@@ -4,13 +4,16 @@ A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Completed Flutter application call Todo just only tutorial and training.
 
-A few resources to get you started if this is your first Flutter project:
+If you have a suggestion, share it with us to development for more facilities and more learning .
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Telegram group : https://t.me/flutterCompleteApps
+Youtube channel : https://www.youtube.com/playlist?list=PLnjrKcTR3ac4X5ZRVCi2tN8AZQJVRaZWz
+Telegram channel : https://t.me/fcapps
+WhatsApp group : https://chat.whatsapp.com/LuIXgunTW8v
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Thanks .
+
+Ali Asiri
+13/9/2019 Friday
