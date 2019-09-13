@@ -310,7 +310,8 @@ class _HomeState extends State<Home> {
   // return widget r=that tell us - no item / add new .
   Widget getEmptyWidget() {
     // draw screen with note picture and message to add new items
-    return Wrap(  // avoid overflow when add new item in first time
+    return Wrap(
+      // avoid overflow when add new item in first time
       children: <Widget>[
         Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
