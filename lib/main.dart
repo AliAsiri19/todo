@@ -5,7 +5,7 @@ import 'home.dart';
 void main() {
   runApp(StartupPoint());
 }
-
+// The project start point.
 class StartupPoint extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
